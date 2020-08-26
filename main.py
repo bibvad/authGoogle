@@ -14,5 +14,6 @@ print(totp_uri)
 filename = "site.png"
 img = qrcode.make(totp_uri)
 img.save(filename)
+img.show()
 
 
